@@ -58,7 +58,11 @@ main {
 }
 
 img {
-	margin: 40px 8px 0 8px;
+	margin: 25px 8px 0 8px;
+}
+
+img:hover {
+	cursor: alias;
 }
 
 footer {
@@ -95,4 +99,23 @@ font-size: 0;
 	font-weight: 700;
 }
 
+button {
+	font-family: raleway;
+	letter-spacing: 1px;
+	background-color: #F15B31;
+	color: #FFFFFF;
+	border: none;
+	text-align: center;
+	padding: 15px 32px;
+	margin: 30px;
+	font-size: 18px;
+	text-decoration: none;
+}
 
+button:hover {
+	cursor: pointer;
+}
+
+button:active {
+	background-color: #00A6B3;
+}
